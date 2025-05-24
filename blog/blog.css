@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #473144;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  color: #473144;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+header {
+  border-top: 2px solid #EFC69B;
+  border-bottom: 2px solid #EFC69B;
+  margin-bottom: 20px;
+  padding: 0.5rem 0;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.menu-nav a {
+  color: #AF1B3F;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.menu-nav a:hover {
+  text-decoration: underline;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 2rem;
+}
+
+.review-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 170px;
+  align-items: flex-start;
+  gap: 1.5rem;
+  min-height: 250px;
+}
+
+.review-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  margin-top: 6px;
+}
+
+.review-content h2 {
+  color: #AF1B3F;
+  font-family: 'Lora', serif;
+  margin-bottom: 0.6rem;
+  margin-top: 0;
+  font-size: 1.35rem;
+}
+
+.review-content img {
+  display: block;
+  max-width: 160px;
+  margin-bottom: 0.5rem;
+}
+
+.review-content p {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.readmore {
+  color: #AF1B3F;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.review-filters {
+  color: #473144;
+  font-size: 1rem;
+  padding-top: 6px;
+}
+
