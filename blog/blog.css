@@ -100,3 +100,13 @@ header {
   padding-top: 6px;
 }
 
+.skiptocontent a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.skiptocontent a:focus {
+  top: 0;
+}
+
