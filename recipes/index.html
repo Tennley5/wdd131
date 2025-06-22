@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Delicious and easy-to-make recipes." />
+    <meta name="author" content="Hailey Gibson" />
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="recipes.css" />
+    <link rel="icon" type="image/png" href="images/recipe-book.png" />
+
+    <meta property="og:title" content="Recipe Book" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Delicious and easy-to-make recipes." />
+    <meta property="og:image" content="images/recipe-book.png" />
+    <meta property="og:url" content="https://tennley5.github.io/wdd131/recipes" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <header>
+        <img src="images/recipe-book.png" alt="Recipe Book Logo" class="logo"/>
+        <h1>Recipe Book</h1>
+    </header>
+
+    <main>
+        <form class="search">
+            <label for="searchInput" class="visually-hidden">Search Recipes</label>
+            <input type="text" id="searchInput" placeholder="Search recipes..."/>
+            <button type="submit">Search</button>
+        </form>
+
+        <section id="recipes">
+<article class="recipe">
+  <img src="images/sweet-potato-waffle-md.jpg" alt="Sweet Potato Waffles" />
+  <div class="recipe-content">
+    <span class="tag">dessert</span>
+    <h2>Sweet Potato Waffles</h2>
+    <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+      <span aria-hidden="true" class="icon-star">⭐</span>
+      <span aria-hidden="true" class="icon-star">⭐</span>
+      <span aria-hidden="true" class="icon-star">⭐</span>
+      <span aria-hidden="true" class="icon-star">⭐</span>
+      <span aria-hidden="true" class="icon-star-empty">☆</span>
+    </span>
+    <p class="description">Savory waffles made with sweet potato with a hint of ginger.</p>
+  </div>
+</article>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="attribution">
+            <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+                Recipe icons created by Freepik - Flaticon
+            </a>
+        </p>
+        <div class="social">
+            <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
