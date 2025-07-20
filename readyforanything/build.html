@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build Your Kit</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="styles/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img src="styles/logo.jpeg" alt="Site Logo" class="logo" />
+      </div>
+      <h1>Ready For Anything</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="build.html">Build Your Kit</a>
+        <a href="saved.html">Saved Kits</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="kit-builder">
+        <select id="scenario">
+          <option value="">-- Select a Scenario --</option>
+          <option value="wildfire">Wildfire</option>
+          <option value="blackout">Blackout</option>
+          <option value="flood">Flood</option>
+        </select>
+
+        <h2>Your Emergency Checklist</h2>
+        <ul id="checklist"></ul>
+
+        <div class="custom-item">
+          <input type="text" id="customItem" placeholder="Add custom item..." />
+          <button id="addItemBtn">Add</button>
+        </div>
+
+        <div class="buttons">
+         <input type="text" id="kitName" placeholder="Name your kit..." />
+          <button id="saveBtn">Save My Kit</button>
+          <button id="printBtn">Print Checklist</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
